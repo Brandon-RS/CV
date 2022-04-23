@@ -2,7 +2,8 @@ $radius: 15px;
 $font-size: 16px;
 $title-color: #3a3ad6;
 $blue: #75e3ed;
-$white: rgba(255, 255, 255, 0.839);
+$white: rgba(255, 255, 255, 0.8);
+$background-color: rgb(252, 252, 252);
 
 .content {
   background-color: $white;
@@ -11,7 +12,7 @@ $white: rgba(255, 255, 255, 0.839);
   text-align: left;
   padding: 10px 50px 40px 50px;
   min-width: 500px;
-  
+
   h3 {
     color: $title-color;
     font-size: 20px;
@@ -19,11 +20,8 @@ $white: rgba(255, 255, 255, 0.839);
 }
 
 @media screen and (max-width: 1700px) {
-
   .content {
     min-width: 350px;
     padding: 10px 50px 25px 50px;
   }
 }
-
-

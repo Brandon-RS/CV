@@ -67,14 +67,14 @@ export default {
 }
 
 .main-component {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 @media screen and (max-width: 1400px) {
   .main-component {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .data-section {
